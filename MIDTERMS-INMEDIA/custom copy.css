@@ -1,0 +1,229 @@
+
+body{
+  
+    height: 1800px;
+
+    background: linear-gradient(180deg, #FF95C8 0%, #FFEAF4 100%);
+}
+
+.nav-item{
+
+    font-family: 'Inter';
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 44px;
+
+}
+
+
+
+.av{
+    margin-left: -200px;
+    margin-right: 250px;
+}
+.aa {
+    padding-right: 50px;
+
+}
+
+.navbar-nav > li{
+
+    padding-right:100px;
+  }
+
+
+h1{
+    
+
+padding-top: 50px;
+text-align: center;
+
+
+font-family: 'Poppins';
+font-style: bold;
+font-weight: 700;
+font-size: 80px;
+line-height: 120px;
+
+color: #FFFFFF;
+  }
+
+
+
+.footercontent{
+    position: absolute;
+    width: 1513px;
+    height: 185px;
+    left: -20px;
+    top: 1800px;
+    
+    background: #FFFFFF;
+    box-shadow: 4px 4px 100px 2px rgba(0, 0, 0, 0.1);
+  
+}
+
+.lls{
+    position: absolute;
+    padding-top:20px;
+    left: 430px;
+   
+}
+
+.smb{
+    position: absolute;
+    left: 1110px;
+}
+
+
+.linkedinacc{
+    position: absolute;
+    width: 314px;
+    height: 37px;
+    left: 320px;
+    top: 80px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    text-align: justify;
+    
+    color: #797979;
+}
+
+.gmail{
+    position: absolute;
+    width: 314px;
+    height: 37px;
+    left: 690px;
+    top: 80px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    text-align: justify;
+    
+    color: #797979;
+    
+}
+
+.no{
+    position: absolute;
+    width: 314px;
+    height: 37px;
+    left: 1110px;
+    top: 80px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    text-align: justify;
+    
+    color: rgba(121, 121, 121, 0.84);
+}
+
+.lna{
+    position: absolute;
+    width: 79px;
+    height: 55px;
+    left: 240px;
+    top: 70px;
+}
+.gg{
+    position: absolute;
+    width: 67px;
+    height: 64px;
+    left: 610px;
+    top: 70px;
+}
+
+.contact{
+    position: absolute;
+    width: 70px;
+    height: 56px;
+    left: 1030px;
+    top: 70px;
+}
+
+.card-title1{
+
+font-family: 'Inter';
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+
+color: #797979;
+
+}
+.card-text1{
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #797979;
+}
+
+.card-title2{
+
+    padding-top:20px;
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #797979;
+    
+    }
+ .card-text2{
+        padding-left: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #797979;
+    }
+.card-title3{
+
+        padding-top:20px;
+        padding-left: 15px;
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        
+        color: #797979;
+ }
+     
+.card-text3{
+            padding-left: 40px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            
+            color: #797979;
+}
+    
+
+
+

@@ -1,0 +1,381 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Libre+Caslon+Text:ital@0;1&family=Montserrat:wght@500;600&display=swap');
+
+
+
+*{
+    font-family:'Inter', 'Poppins';
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    transition:all .2s linear;
+    transition:width none;
+}
+
+html{
+    font-size: 80.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:.8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(180deg, #ffc0df 0%, #FF95C8 100%);
+    border-radius: 7rem;
+}
+
+body{
+    background: linear-gradient(180deg, #FF95C8 0%, #FFEAF4 100%);
+    background-repeat: no-repeat;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section{
+     padding: 3rem 3%;
+  }
+
+
+
+/*==================== NAV ====================*/
+.header {
+    margin-top: 1%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 7%;
+    width: 100%;
+    position:relative;
+    top: 0;
+    z-index: 1000;
+    font-size: 15px;
+
+  }
+ 
+  .header .logo:hover{
+    font-size:35px;
+    border-radius:10%;
+    color:white;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .header .logo{
+    float:left;
+    margin-left: 5%;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #FFFFFF;
+  }
+  
+
+  .navbar a{
+    text-decoration: none;
+    margin-left:40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #FFFFFF;
+  }
+  
+  .navbar a:hover{
+    font-size:35px;
+    border-radius:10%;
+    color:white;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+
+
+  /* START OF THE CONTENT */
+
+  .sas{
+    
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 150px;
+    margin-bottom: 2%;
+    color: #FFFFFF;
+
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.div1 , .div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.card1{
+    
+width: 992px;
+height: 382px;
+background: #FFFFFF;
+box-shadow: 4px 4px 100px -16px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.card2{
+
+width: 992px;
+height: 382px;
+background: #FFFFFF;
+box-shadow: 4px 4px 100px -16px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+
+.card3{
+
+    width: 992px;
+    height: 382px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 100px -16px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+}
+
+.card-title1{ 
+    padding-top: 5%;
+    padding-left: 10%;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    
+    color: #797979;
+}
+
+.card-text1{
+    padding-left: 10%;  
+    width: 600px;
+    height: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: justify;
+    color: #797979;
+    
+}
+
+.card-title2{
+    padding-top: 5%;
+    padding-left: 10%;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    
+    color: #797979;
+ }
+
+ .card-text2{
+    padding-left: 10%;  
+    width: 600px;
+    height: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: justify;
+    
+    color: #797979;
+ }
+
+ .card-title3{
+    padding-top: 5%;
+    padding-left: 10%;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    
+    color: #797979;
+}
+
+.card-text3{
+    padding-left: 10%;  
+    width: 600px;
+    height: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: justify;
+    
+    color: #797979;
+}
+
+.pic1{
+    height: 383.63px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+    
+}
+
+.pic2{
+    height: 383.63px;
+    
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.pic3{
+    height: 383.63px;
+    
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+.mou {
+    position: absolute;
+    width: 23%;
+    height: 50%;
+    left: 77%;
+    top: 70.5%;
+}
+
+.hea {
+    position: absolute;
+    width: 24%;
+    height: 90%;
+    left: 75%;
+    top: 150%;
+    transform: rotate(5.04deg);
+}
+
+.card1:hover , .card2:hover , .card3:hover{
+    box-shadow: 0px 4px 18px 3px rgba(83, 104, 114, 0.39);
+    cursor: pointer;
+}
+
+.bigH {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    left: -27%;
+    top: 10%;
+}
+
+.sleep {
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    left: -9%;
+    top: 110%;
+}
+
+
+.chick {
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    left: -1%;
+    top: 190%;
+    z-index: -2;
+}
+
+
+
+/* FOOTER */
+  
+.footer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: #FFFFFF;
+}
+
+
+.footerIcons1{
+
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  
+}
+
+.butterfly{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    
+}
+
+.footerIcons1 a{
+    padding-top: 1%;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-align: justify;
+    color: #797979;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 6%;
+   
+}
+
+.footer .footerIcons1 i{
+    font-size: 24px;
+    padding-right: 10px;
+    color:#FF5DAB;
+
+   
+}
+
+.footer .footerIcons1 a:hover{
+    cursor: pointer;
+    font-size:28px;
+    border-radius:10%;
+    color:#FF95C8;
+
+   
+}
+
+
+  
+
+.quote{
+    margin-top: 5%;
+}
+    
+
+
+
